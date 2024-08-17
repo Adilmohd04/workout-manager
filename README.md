@@ -25,11 +25,6 @@ Ensure you have the following installed on your local machine:
 - npm (v6 or later)
 - Angular CLI (v14 or later)
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Adilmohd04/workout-manager.git
-   ```
 
 1. Clone the repository:
 
