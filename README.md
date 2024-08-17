@@ -1,5 +1,3 @@
-Here’s the complete `README.md` in a single markdown block that you can directly use:
-
 ```markdown
 # Health Challenge Tracker
 
