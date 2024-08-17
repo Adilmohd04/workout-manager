@@ -1,4 +1,4 @@
-Sure! Here is the `README.md` file content formatted for easy copy and paste into GitHub:
+Here’s the complete `README.md` in a single markdown block that you can directly use:
 
 ```markdown
 # Health Challenge Tracker
@@ -33,11 +33,16 @@ Ensure you have the following installed on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Adilmohd04/fyle-frontend.git
-   cd fyle-frontend
+   git clone https://github.com/Adilmohd04/workout-manager.git
    ```
 
-2. Install the dependencies:
+2. Navigate to the project directory:
+
+   ```bash
+   cd workout-manager
+   ```
+
+3. Install the dependencies:
 
    ```bash
    npm install
@@ -45,18 +50,21 @@ Ensure you have the following installed on your local machine:
 
 ### Running the Application
 
-1. Start the development server:
+To start the development server and run the application locally:
 
-   ```bash
-   ng serve
-   ```
+```bash
+ng serve
+```
 
-2. Open your browser and navigate to `http://localhost:4200/`.
+The application will be available at `http://localhost:4200/`.
 
-## Running unit tests
+### Running Unit Tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To execute the unit tests for the application:
 
-## Running end-to-end tests
+```bash
+ng test
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This will run the unit tests and provide a report in the terminal.
+![test](https://github.com/user-attachments/assets/4614b249-83cd-4a07-ae37-46a088be8938)
