@@ -1,4 +1,3 @@
-```markdown
 # Health Challenge Tracker
 
 This is a Health Challenge Tracker application built with Angular 14+. The application allows users to track workout types and minutes, view the data in a bar chart, and manage users.
