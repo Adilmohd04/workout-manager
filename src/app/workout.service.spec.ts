@@ -49,7 +49,7 @@ describe('WorkoutService', () => {
       const user = users.find(u => u.name === userName);
       const workout = user?.workouts.find(w => w.type === workoutType);
       expect(workout).toBeTruthy();
-      expect(workout?.minutes).toBe(50); // 30 + 20
+      expect(workout?.minutes).toBe(50); 
       done();
     });
   });
@@ -98,7 +98,7 @@ describe('WorkoutService', () => {
 
   it('should initialize with default data if local storage is empty', (done) => {
     localStorageServiceSpy.getItem.and.returnValue([]);
-    service = TestBed.inject(WorkoutService); // Re-create service instance with updated spy
+    service = TestBed.inject(WorkoutService); 
 
     service.getUsers().pipe(take(1)).subscribe(users => {
       expect(users.length).toBe(3);
