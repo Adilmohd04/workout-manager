@@ -1,0 +1,27 @@
+<div class="app-background">
+  <header class="container mx-auto flex justify-between items-center header-container">
+    <div class="header-title ">
+      <h1>{{ title }}</h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto mt-8 px-4">
+    <div class="section user-form-section mb-8">
+      <div class="w-full p-2">
+        <app-user-form (addUser)="onAddUser($event)"></app-user-form>
+      </div>
+    </div>
+
+    <div class="section user-list-section mb-8">
+      <div class="w-full p-2">
+        <app-user-list (selectUser)="onSelectUser($event)"></app-user-list>
+      </div>
+    </div>
+
+    <div class="section user-chart-section">
+      <div class="w-full p-2">
+        <app-user-chart [users]="users" [selectedUser]="selectedUser"></app-user-chart>
+      </div>
+    </div>
+  </main>
+</div>

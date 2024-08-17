@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-container {
+  background-color: hsl(0, 1%, 47%); 
+  padding: 1rem 1.5rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.header-title {
+  font-size: 2rem; 
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+
