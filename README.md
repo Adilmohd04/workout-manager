@@ -31,6 +31,12 @@ Ensure you have the following installed on your local machine:
    git clone https://github.com/Adilmohd04/workout-manager.git
    ```
 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Adilmohd04/workout-manager.git
+   ```
+
 2. Navigate to the project directory:
 
    ```bash
