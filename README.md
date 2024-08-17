@@ -16,7 +16,6 @@ This is a Health Challenge Tracker application built with Angular 14+. The appli
 - Chart.js
 - TailwindCSS
 
-## Getting Started
 
 ### Prerequisites
 
@@ -25,11 +24,6 @@ Ensure you have the following installed on your local machine:
 - Node.js (v14 or later)
 - npm (v6 or later)
 - Angular CLI (v14 or later)
-
-
-
-
-### Installation
 
 1. Clone the repository:
 
