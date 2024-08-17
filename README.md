@@ -63,3 +63,8 @@ ng test
 
 This will run the unit tests and provide a report in the terminal.
 ![test](https://github.com/user-attachments/assets/4614b249-83cd-4a07-ae37-46a088be8938)
+
+### Deployed Application
+You can access the deployed application using the following link:
+
+[Health Challenge Tracker - Live](https://workout-manager.vercel.app/)
